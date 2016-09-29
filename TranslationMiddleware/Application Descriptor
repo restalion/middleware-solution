@@ -1,0 +1,16 @@
+input_error: 24
+input_stop: 18
+url_service_post: http://<Server IP>:<Service Port>/event
+MIDlet-1: TranslationMiddleware,,com.accenture.robot.RobotMgt
+device_id: SimulatedRobot1
+MIDlet-Jar-URL: TranslationMiddleware.jar
+url_service_get: http://<Server IP>:<Service Port>/intervals
+input_start: 22
+MIDlet-Permission-3: javax.microedition.io.HttpProtocolPermission "http://<Server IP>:<Service Port>"
+MIDlet-Permission-2: jdk.dio.gpio.GPIOPinPermission "*:*" "open,setdirection"
+MicroEdition-Configuration: CLDC-1.8
+MIDlet-Permission-1: jdk.dio.DeviceMgmtPermission "*:*" "open"
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: MIDlet Suite Vendor
+MIDlet-Name: TranslationMiddleware MIDlet Suite
+MicroEdition-Profile: MEEP-8.0
